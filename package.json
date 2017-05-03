@@ -1,0 +1,29 @@
+{
+  "name": "botframework-email-support-bot",
+  "version": "1.0.0",
+  "description": "email bot example for bot framework node sdk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwhitmont/botframework-email-support-bot.git"
+  },
+  "keywords": [
+    "botframework",
+    "botbuilder",
+    "node",
+    "sdk"
+  ],
+  "author": "Nils Whitmont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwhitmont/botframework-email-support-bot/issues"
+  },
+  "homepage": "https://github.com/nwhitmont/botframework-email-support-bot#readme",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "restify": "^4.3.0"
+  }
+}

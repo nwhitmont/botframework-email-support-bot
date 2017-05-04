@@ -15,7 +15,8 @@ module.exports = {
 
         // status route
         server.get('/', function (request, response, next) {
-            response.send(200, { status: 'online'})
+            response.send(200, { status: 'online'});
+            next();
         });
 
         // Listen for messages from users 

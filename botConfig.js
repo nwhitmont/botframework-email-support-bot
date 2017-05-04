@@ -13,6 +13,11 @@ module.exports = {
             appPassword: process.env.MICROSOFT_APP_PASSWORD
         });
 
+        // status route
+        server.get('/', function (request, response, next) {
+            response.send(200, { status: 'online'})
+        });
+
         // Listen for messages from users 
         server.post('/api/messages', connector.listen());
 

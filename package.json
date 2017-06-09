@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/nwhitmont/botframework-email-support-bot#readme",
   "dependencies": {
-    "botbuilder": "^3.7.0",
+    "botbuilder": "^3.8.4",
     "restify": "^4.3.0"
   }
 }
